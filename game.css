@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bgimage {
+  background-image: url(PX.jpg);
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+
+.gap-r {
+  margin-right: 0.5rem;
+}
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+}
+.leftmenu h1 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+}
+.rightmenu ul {
+  margin-left: 200px;
+}
+.rightmenu li {
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+.rightmenu a {
+  color: white;
+  text-decoration: none;
+}
+
+.rightmenu li:hover,
+.rightmenu a:hover {
+  color: orange;
+}
+.text {
+  width: 100%;
+  margin-top: 185px;
+  text-transform: uppercase;
+  text-align: center;
+  color: darkslateblue;
+}
+.text h4 {
+  font-family: "Oswald", sans-serif;
+
+  font-size: 14px;
+}
+.text h1 {
+  font-family: italic;
+  font-size: 62px;
+  font-weight: 700px;
+  margin: 14px 0px;
+  color: darkolivegreen;
+}
+.text h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+}
+#buttonone {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 25px;
+  border: 3px solid darkblue;
+  color: darkslateblue;
+  cursor: pointer;
+}
+#buttontwo {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 25px;
+  border: 3px solid darkblue;
+  color: darkslateblue;
+  cursor: pointer;
+}
+#buttonthree {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 25px;
+  border: 3px solid darkblue;
+  color: darkslateblue;
+  cursor: pointer;
+}
